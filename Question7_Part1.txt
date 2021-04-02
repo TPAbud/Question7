@@ -1,0 +1,14 @@
+--Creat table dogs
+CREATE TABLE [dogs] ([id] INT,[Name] VARCHAR(50));
+INSERT INTO [dogs] ([id],[Name]) VALUES ('1','Zeca');
+INSERT INTO [dogs] ([id],[Name]) VALUES ('2','Silva');
+INSERT INTO [dogs] ([id],[Name]) VALUES ('3','Lili');
+
+--Create table cats
+CREATE TABLE [cats] ([id] INT,[Name] VARCHAR(50));
+INSERT INTO [cats] ([id],[Name]) VALUES ('1','Beto');
+INSERT INTO [cats] ([id],[Name]) VALUES ('2','Beto');
+INSERT INTO [cats] ([id],[Name]) VALUES ('3','Zeca');
+INSERT INTO [cats] ([id],[Name]) VALUES ('4','Lili');
+INSERT INTO [cats] ([id],[Name]) VALUES ('5','Zeca');
+
